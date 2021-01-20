@@ -1,0 +1,74 @@
+#chatLog{
+	width: 50%; 
+    height: 500px;
+}
+#name{ 
+    width: 8%; 
+    border-radius: 10px;
+    border-color: #7bb0ff;
+    margin-right: 10px;
+}
+
+#message{ 
+    width: 35%; 
+    border-radius: 10px;
+    border-color: #7bb0ff;
+    margin-top: 15px;
+}
+
+.btn.btn-info{
+	width: 50%;
+	height: 45px;
+    font-size: 20px;
+    background-color: #7bb0ff;
+    border-color: #7bb0ff;
+    margin-top: 15px;
+}
+
+.btn.btn-info:hover {
+    background-color: #2f59cc
+}
+
+.btn.btn-primary{
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7bb0ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #2f59cc
+}
+
+.btn.btn-primary:active {
+    background-color: #2f59cc;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.online {
+    position: absolute; 
+    top: 100px;
+    right: 200px;
+    height: 300px;
+    width: 100px;
+    background-color:#C5DDEB;
+    margin-top: 15px;
+    margin-left: 200px;
+    border-radius: 20px;
+    color: black;
+}
+
+#onlineLog {
+    color:#666;
+}
